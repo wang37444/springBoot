@@ -9,7 +9,7 @@ import com.will.bean.UserBean;
 /**
  * 文件名：LoginController.java
  * 描述：
- * 作者：王承
+ * 作者：will
  * 日期：2017年9月27日下午5:13:27
  */
 @RestController
@@ -19,7 +19,7 @@ public class LoginController {
 	 * 
 	 * @param mv
 	 * @return
-	 * 作者：王承
+	 * 作者：will
 	 * 日期：2017年9月27日下午5:14:47
 	 */
 	@RequestMapping("/login")
@@ -32,7 +32,7 @@ public class LoginController {
 	 * 
 	 * @param mv
 	 * @return
-	 * 作者：王承
+	 * 作者：will
 	 * 日期：2017年9月27日下午5:56:31
 	 */
 	@RequestMapping("/index")

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+<form id="form" th:action="@{/index}" tjh:object="${userBean}" th:method="post">
+<div style="text-align: center">
+姓名：<input type="text" name="userName"  value="" th:value="*{userName}" /><br/>
+密码：<input type="password" name="userPwd"  value="" th:value="*{userPwd}" /><br/>
+<input type="submit" id="btnSubmit" value="提交" />
+</div>
+</form>
+</body>
+</html>
